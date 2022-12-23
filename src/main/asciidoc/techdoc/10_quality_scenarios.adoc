@@ -1,6 +1,6 @@
 [[section-quality-scenarios]]
 == Qualitätsanforderungen
-
+realtime updates etc
 
 
 === Qualitätsbaum

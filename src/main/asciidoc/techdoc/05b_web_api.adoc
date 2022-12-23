@@ -1,4 +1,7 @@
 === Web API
+msr
+
+Konzept Firebase (Verweis auf Doku)
 
 Web APIs stellen HTTP Einstiegspunkte zu Interfaces bereit. Dabei werden mindestens der Pfad und die HTTP Methode definiert, wobei der Pfad Platzhalter enthalten kann, welche ausgelesen und an das
 Interface weitergegeben werden. Zusätzlich können weitere Eigenschaften für Request und Response deklariert werden. Beim Request sind das HTTP Header und im speziellen auch Cookies, HTTP Query

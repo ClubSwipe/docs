@@ -1,13 +1,13 @@
 [[section-introduction-and-goals]]
 ==	Einführung und Ziele
-
+@
 === Aufgabenstellung
 
 === Qualitätsziele
 * *Titel*
 +
 Lauftext
-
+mwm
 === Stakeholder und Rollen
 * *Betreiber (fachlicher oder technischer Schnittstellen Owner)*
 +

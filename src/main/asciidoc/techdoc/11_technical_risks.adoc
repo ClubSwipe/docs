@@ -1,5 +1,6 @@
 [[section-technical-risks]]
 == Risiken und technische Schulden
-
+Kosten 
+Framework nicht mehr unterstützt
 
 

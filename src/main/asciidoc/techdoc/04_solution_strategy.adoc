@@ -1,2 +1,9 @@
 [[section-solution-strategy]]
 == Lösungsstrategie
+firebase
+pwa
+eigenes modul
+angular vs react, warum angular
+Warum Firestore
+
+mwm

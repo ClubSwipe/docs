@@ -1,6 +1,7 @@
 [[section-deployment-view]]
 == Verteilungssicht
-
+sbi
+firebase wo wie was
 === Parameter
 
 Die folgende Liste beschreibt die EIP-spezifischen Parameter:
