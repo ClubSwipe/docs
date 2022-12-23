@@ -1,0 +1,7 @@
+[[section-components]]
+== Komponenten
+Folgende Abschnitte beschreiben einzelne Komponenten.
+
+include::05_logging.adoc[]
+
+include::05b_web_api.adoc[]

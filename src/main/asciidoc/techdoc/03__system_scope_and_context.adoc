@@ -1,0 +1,10 @@
+[[section-system-scope-and-context]]
+== Kontextabgrenzung
+
+=== Fachlicher Kontext
+
+
+==== Technischer Kontext
+
+Die fachlichen Anforderungen werden über Prozessoren abgedeckt, welche in einer Arbeitsfläche miteinander verbunden werden.
+Dadurch ist der Datenfluss zwischen den Prozessoren gegeben und die Kontaktpunkte zur Außenwelt bestimmt.

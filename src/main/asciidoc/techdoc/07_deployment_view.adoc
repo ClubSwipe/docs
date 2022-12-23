@@ -1,0 +1,19 @@
+[[section-deployment-view]]
+== Verteilungssicht
+
+=== Parameter
+
+Die folgende Liste beschreibt die EIP-spezifischen Parameter:
+
+[cols="2,4,1" options="header"]
+|===
+|Name
+|Beschreibung
+|Standardwert
+
+|`zeile 1`
+|Beschreibung zeile 1
+|
+
+|===
+

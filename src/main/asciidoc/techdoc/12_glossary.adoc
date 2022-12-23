@@ -1,0 +1,13 @@
+[[section-glossary]]
+== Glossar
+
+Die folgende Liste beschreibt einige wichtige EIP-spezifischen Begriffe und Abkürzungen:
+
+[cols="3s,9" options="header"]
+|===
+|Begriff |Definition
+
+|UI
+|User Interface, Bedienoberfläche einer Applikation.
+
+|===

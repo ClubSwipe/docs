@@ -1,0 +1,7 @@
+[[section-concepts]]
+== Querschnittliche Konzepte
+
+include::08_presets.adoc[]
+include::08_benchmarks.adoc[]
+include::08_resolvers.adoc[]
+

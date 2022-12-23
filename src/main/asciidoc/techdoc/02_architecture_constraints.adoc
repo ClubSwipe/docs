@@ -1,0 +1,6 @@
+[[section-architecture-constraints]]
+== Randbedingungen
+
+=== Laufzeitumgebung
+
+=== UI

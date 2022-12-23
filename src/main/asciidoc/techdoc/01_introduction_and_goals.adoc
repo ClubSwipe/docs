@@ -1,0 +1,17 @@
+[[section-introduction-and-goals]]
+==	Einführung und Ziele
+
+=== Aufgabenstellung
+
+=== Qualitätsziele
+* *Titel*
++
+Lauftext
+
+=== Stakeholder und Rollen
+* *Betreiber (fachlicher oder technischer Schnittstellen Owner)*
++
+Betreiber müssen rasch einsehen können, «wie gut» eine Schnittstelle funktioniert. Sprich, ob Aufrufe erfolgreich durchlaufen, ob einzelne Aufrufe oder ein Element innerhalb der Schnittstelle zu Fehlern führt.
++
+_Fachliche und technische Applikationsverantwortliche, Betrieb (z.B. auch Cloud)_
+

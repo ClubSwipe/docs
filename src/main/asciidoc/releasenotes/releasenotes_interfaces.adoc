@@ -1,0 +1,15 @@
+include::../common/_common.adoc[]
+
+= Technische Release Notes  {project-version}
+Entwicklungsteam 
+Severin Bind <severin.bind@gmail.com>
+Marcel Wismer <marcel.wismer@gmail.com>
+Mathias Schneider <murksi@gmail.com>
+
+Version vom {docdate}
+
+include::_Einleitung.adoc[]
+
+include::_Aenderungen_Interfaces_22.0.adoc[]
+
+[appendix]

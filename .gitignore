@@ -1,0 +1,14 @@
+*.aux
+*.idx
+*.lof
+*.log
+*.lol
+*.lot
+*.out
+*.pdf
+*.synctex
+*.tdo
+*.toc
+*.tps
+
+target/*

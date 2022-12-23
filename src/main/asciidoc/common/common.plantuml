@@ -1,0 +1,120 @@
+@startuml
+
+skinparam defaultFontName Calibri Light
+skinparam titleFontName Calibri Light
+
+skinparam shadowing false
+skinparam backgroundColor white
+
+'Alternative Color: #FDE1B1
+' Dark Blue:  #0082A1
+' Light blue: #80C1D0
+
+skinparam sequenceDivider {
+  BorderColor #BFBFBF
+  BackgroundColor white
+  FontSize 12
+  FontStyle italic
+}
+
+skinparam actor {
+  BorderColor #0082A1
+  BackgroundColor #0082A1
+  FontStyle bold
+}
+
+skinparam entity {
+  BorderColor #0082A1
+  BackgroundColor #80C1D0
+  FontStyle bold
+}
+
+skinparam database {
+  BorderColor #0082A1
+  BackgroundColor #80C1D0
+  FontStyle bold
+}
+
+skinparam boundary {
+  BorderColor #0082A1
+  BackgroundColor #80C1D0
+  FontStyle bold
+}
+
+skinparam participant {
+  BorderColor #0082A1
+  BackgroundColor #0082A1
+  FontColor white
+  FontStyle bold
+}
+
+skinparam sequence {
+  ArrowColor #7F7F7F
+  LifeLine {
+    BorderColor #0082A1
+    BackgroundColor #80C1D0
+  }
+  MessageAlign center
+  Group {
+    HeaderFontStyle plain
+    FontStyle plain
+    BackgroundColor #EFEFEF
+    BorderThickness 1
+    BorderColor #7F7F7F
+  }
+}
+
+skinparam note {
+  BackgroundColor #FFCC8A
+  BorderColor #FFCC8A
+}
+
+skinparam class {
+  BackgroundColor #FFCC8A
+  ArrowColor #7F7F7F
+  BorderColor #FE9915
+  FontStyle bold
+}
+
+skinparam stereotypeIBackgroundColor #80C1D0
+
+skinparam component {
+  BackgroundColor #80C1D0
+  BackgroundColor<<External>> #FFCC8A
+  ArrowColor #7F7F7F
+  BorderColor  #0082A1
+  BorderColor<<External>> #FE9915
+}
+
+skinparam Rectangle {
+  BorderColor #7F7F7F
+  FontStyle bold
+}
+
+skinparam Cloud {
+  BorderColor #7F7F7F
+  FontStyle bold
+}
+
+skinparam activity {
+  BarColor #80C1D0
+  BorderColor #0082A1
+  BackgroundColor #80C1D0
+}
+
+skinparam activityDiamond {
+  BorderColor #FE9915
+  BackgroundColor #FFCC8A
+}
+
+skinparam state {
+  BackgroundColor #80C1D0
+  BorderColor #0082A1
+}
+
+skinparam Swimlane{
+  BorderThickness 0
+  BorderColor White
+}
+
+@enduml

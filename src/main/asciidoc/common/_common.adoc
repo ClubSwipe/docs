@@ -1,0 +1,17 @@
+:experimental:
+:chapter-label:
+:appendix-caption: Anhang
+:example-caption: Beispiel
+:figure-caption: Abbildung
+:last-update-label: Zuletzt aktualisiert
+:listing-caption: Snippet
+:table-caption: Tabelle
+:toc-title: Inhaltsverzeichnis
+
+:idprefix:
+:idseparator: -
+
+:listing-caption: Listing
+
+// Versions
+:project-version: 22.0

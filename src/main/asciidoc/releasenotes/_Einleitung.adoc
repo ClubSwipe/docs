@@ -1,0 +1,7 @@
+== Über dieses Dokument
+
+Dieses Dokument beschreibt wichtige technische Änderungen zwischen den einzelnen Releases gibt Hinweise zur Migration.
+Pro Major-Release gibt es ein Hauptkapitel, dessen erster Teil alle Änderungen gegenüber dem vorherigen Major-Release umfasst.
+In weiteren Unterkapiteln werden Änderungen zwischen Minor- und Micro-Releases innerhalb der gleichen Major-Version behandelt.
+Es wird versucht, auf Kompatibilität zu achten und den Aufwand für diese Änderungen möglichst gering zu halten.
+Wo notwendig, sind die entsprechenden Massnahmen zur Migration beschrieben.

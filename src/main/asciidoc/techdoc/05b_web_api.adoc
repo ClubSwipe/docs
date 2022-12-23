@@ -1,0 +1,16 @@
+=== Web API
+
+Web APIs stellen HTTP Einstiegspunkte zu Interfaces bereit. Dabei werden mindestens der Pfad und die HTTP Methode definiert, wobei der Pfad Platzhalter enthalten kann, welche ausgelesen und an das
+Interface weitergegeben werden. Zusätzlich können weitere Eigenschaften für Request und Response deklariert werden. Beim Request sind das HTTP Header und im speziellen auch Cookies, HTTP Query
+Parameter und die erwartete JSON Struktur des Payloads. Bei der Response sind es pro HTTP Status Code die zurückgegebene Struktur des JSON Payloads.
+
+Bevor ein Request an einen Prozessor weitergegeben wird, durchläuft er eine optionale Kette von Policies. Damit können Authentifizierung, Autorisierung, Rate-Limitierungen oder eine andere
+Fachlichkeit vorgeschaltet werden.
+
+==== Web API Flow
+
+[plantuml,target=webapi-flow,format=svg]
+----
+text
+----
+
