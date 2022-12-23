@@ -6,3 +6,5 @@ Zur Generierung des Dokumentes folgenden Befehl lokal ausführen:
 ```
 mvn process-resource
 ```
+
+https://arc42.org/overview
