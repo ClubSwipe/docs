@@ -31,8 +31,14 @@ jobs:
       run: mvn process-resources
     - uses: actions/upload-artifact@v3
       with:
-        name: my-artifact
-        path: target/staging/
+        name: generated-docs
+        path: target/generated-docs
+    - name: Upload Documentation to Wiki
+      uses: SwiftDocOrg/github-wiki-publish-action@v1
+      with:
+        path: "generated-docs"
+      env:
+        GH_PERSONAL_ACCESS_TOKEN: ${{ secrets.GH_WIKI_ACCESS_TOKEN }}
 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
     # - name: Update dependency graph

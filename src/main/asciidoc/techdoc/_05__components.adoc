@@ -2,5 +2,5 @@
 == Komponenten
 Folgende Abschnitte beschreiben einzelne Komponenten.
 msr
-include::05_logging.adoc[]
+include::_05_logging.adoc[]
 

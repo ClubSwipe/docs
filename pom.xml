@@ -72,7 +72,7 @@
 
         <executions>
           <!-- releasenotes_interfaces -->
-          <execution>
+          <!-- <execution>
             <id>releasenotes-to-pdf</id>
             <phase>generate-resources</phase>
             <goals>
@@ -93,7 +93,7 @@
                 <pagenums>true</pagenums>
               </attributes>
             </configuration>
-          </execution>
+          </execution> -->
           <execution>
             <id>releasenotes-to-html</id>
             <phase>generate-resources</phase>
@@ -118,7 +118,7 @@
           </execution>
 
           <!-- techdoc_interfaces -->
-          <execution>
+          <!-- <execution>
             <id>techdoc-to-pdf</id>
             <phase>generate-resources</phase>
             <goals>
@@ -139,7 +139,7 @@
                 <pagenums>true</pagenums>
               </attributes>
             </configuration>
-          </execution>
+          </execution> -->
           <execution>
             <id>techdoc-to-html</id>
             <phase>generate-resources</phase>

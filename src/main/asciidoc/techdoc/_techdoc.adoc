@@ -1,0 +1,14 @@
+_Dieses Dokument basiert auf http://www.arc42.de[arc42], einer Vorlage für Architektur-Dokumentationen von Dr. Peter Hruschka & Dr. Gernot Starke._
+
+include::_01_introduction_and_goals.adoc[]
+include::_02_architecture_constraints.adoc[]
+include::_03__system_scope_and_context.adoc[]
+//include::_04_solution_strategy.adoc[]
+include::_05__components.adoc[]
+//include::_06_runtime_view.adoc[]
+include::_07_deployment_view.adoc[]
+include::_08__concepts.adoc[]
+include::_09__design_decisions.adoc[]
+//include::_10_quality_scenarios.adoc[]
+//include::_11_technical_risks.adoc[]
+include::_12_glossary.adoc[]

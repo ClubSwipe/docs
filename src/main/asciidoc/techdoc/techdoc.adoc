@@ -1,0 +1,8 @@
+// /////////////////////////////////////////////////////////////////
+// Technische Dokumentation ClubSwipe //
+// /////////////////////////////////////////////////////////////////
+include::../common/_common.adoc[]
+= Technische Dokumentation: ClubSwipe {project-version}
+Version vom {docdate}
+
+include::_techdoc.adoc[]
