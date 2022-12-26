@@ -1,6 +1,76 @@
 [[section-architecture-constraints]]
-== Randbedingungen
-msr
-=== Laufzeitumgebung
+== Technische Randbedingungen
+.Table Liste der technischen Randbedingungen
+|===
+| |Randbedingungen |Hintergrund und Motivation
 
-=== UI
+|TC1
+|Implementierung in Javascript
+|Die Implementierung basiert auf NodeJS unter Einsatz des Angular Frameworks. 
+
+|TC2
+|Persistierung 
+|Für Speicherung der Daten wird auf eine NoSQL Datenbank namens "Firestore" von Firebase eingesetzt. 
+
+|TC3
+|OS unabhängige Entwicklung
+|Die Applikation soll auf allen drei gängigen Platformen (Mac OS X, Linux und Windows) laufen. 
+
+|TC4
+|Deployment auf Firebase
+|Die Applikation soll auf der Firebase Platform von Google deployt und gehostet werden. 
+
+|TC5
+|Speicherfreundlich
+|Da die Appliktion auf einer kostenpflichtigen Cloud Plaftform gehostet wird, muss auf eine sparsame Art mit Resourcen umgegangen werden. Aus diesem Grund soll entsprechendes Caching angewandt werden. 
+
+|TC6
+|Mobile first
+|Das UI ist auf die Nutzung von mobilen Geräten (kleine Screens) ausgelegt. Bei dieser Applikation handelt es sich um eine Webapp. Die Applikation soll auch auf einem PC funktionieren, das UI wird aber nicht für non-mobile Geräte gerendert. 
+
+|===
+
+== Organisatorische Randbedingungen
+.Table Liste der organisatorischen Randbedingungen
+|===
+| |Randbedingungen |Hintergrund und Motivation
+
+|OC1
+|Team
+|Severin Bind, Marcel Wismer und Matthias Schneider
+
+|OC2
+|Zeitplan 
+|Erstes Prototyping mit Angular und Firebase startete am 23.12.2022. Eine erste Beta-Version zur Absenzenführung soll Ende Janur verfügbar sein. Eine weitere vollumfänglichere Version Ende März. 
+
+|OC3
+|IDE
+|Zur Entwicklung des Projektes empfehlen wir den Einsatz von Visual Studio Code. Es dürfen aber auch andere IDEs eingesetzt werden. Das Projekt muss über die gängigen Command-Line Tools gemanaged werden können. 
+
+|OC4
+|Version Control
+|Als Version Control Tool wird GIT eingesetzt. Das Repository ist öffentlich zugänglich auf github: https://github.com/ClubSwipe/app
+
+|OC5
+|Lizenz
+|Die erste Version der Projektes soll Opensource sein. Weitere Entwciklungen werden evtl. in Zunkunft zu closed source. 
+
+|===
+
+== Konventionen
+.Table Liste der Konventionen
+|===
+| |Randbedingungen |Hintergrund und Motivation
+
+|C1
+|Dokumentation der Architektur
+|Es wird nach arc42 Vorlage dokumentiert. 
+
+|C2
+|Sprache
+|Die Dokumentation wird ausschliesslich in Deutsch gepflegt. 
+
+|===
+
+
+@Doku by msr
