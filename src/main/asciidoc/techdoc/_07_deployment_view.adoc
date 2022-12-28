@@ -1,20 +1,35 @@
 [[section-deployment-view]]
 == Verteilungssicht
 sbi
-firebase wo wie was
-=== Parameter
 
-Die folgende Liste beschreibt die EIP-spezifischen Parameter:
+=== Software Voraussetzungen
 
-[cols="2,4,1" options="header"]
-|===
-|Name
-|Beschreibung
-|Standardwert
+- Installation Node.JS mindestens v14.18.0 
+- Firebase CLI installieren `npm install -g firebase-tools`
+- Deployment via Firebase Hosting `firebase deploy --only hosting`
 
-|`zeile 1`
-|Beschreibung zeile 1
-|
+.Erreichbare Webseite
+****
+- ``PROJECT_ID``.web.app
+- ``PROJECT_ID``.firebaseapp.com
+****
 
-|===
+=== Deployment
+
+Das Deployment funktioniert durch die mitgelieferte github-Action und `\.github\workflows\build.test.yml`. Diese Github-Action erstellt die Build-Artifakte tested diese und Deployed den aktuellen Stand auf Firebase.
+
+=== Lokales Testing
+
+**Applikation starten**::
+`ng serve` for a dev server. Gehe zu `http://localhost:4200/`. Die Applikation wird automatisch neu geladen bei einer Änderungen an einem Source-File.
+
+**Das Projekt bauen**::
+`ng build` to build the project. Die Build-Artifakte sind im `dist/` Ordner.
+
+**Unit Tests laufen lassen**::
+`ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
