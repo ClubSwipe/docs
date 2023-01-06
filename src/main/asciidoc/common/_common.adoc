@@ -14,4 +14,4 @@
 :listing-caption: Listing
 
 // Versions
-:project-version: 22.0
+:project-version: 1.0
