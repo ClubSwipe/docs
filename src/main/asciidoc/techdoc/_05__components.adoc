@@ -1,6 +1,9 @@
 [[section-components]]
-== Komponenten
+== Komponenten TODO[msr]
 Folgende Abschnitte beschreiben einzelne Komponenten.
-msr
+
+image::../images/05_komponentendiagramm.png[Diagramm - Komponentendiagramm]
+
+
 include::_05_logging.adoc[]
 

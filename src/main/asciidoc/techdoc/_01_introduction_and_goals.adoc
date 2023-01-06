@@ -1,5 +1,5 @@
 [[section-introduction-and-goals]]
-==	Einführung und Ziele
+==	Einführung und Ziele TODO[mwm]
 @
 === Aufgabenstellung
 
@@ -7,7 +7,7 @@
 * *Titel*
 +
 Lauftext
-mwm
+
 === Stakeholder und Rollen
 * *Betreiber (fachlicher oder technischer Schnittstellen Owner)*
 +

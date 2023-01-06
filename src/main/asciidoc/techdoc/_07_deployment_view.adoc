@@ -1,6 +1,5 @@
 [[section-deployment-view]]
-== Verteilungssicht
-sbi
+== Verteilungssicht TODO[sbi]
 
 === Software Voraussetzungen
 

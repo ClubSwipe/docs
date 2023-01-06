@@ -1,9 +1,8 @@
 [[section-solution-strategy]]
-== Lösungsstrategie
+== Lösungsstrategie TODO[mwm]
 firebase
 pwa
 eigenes modul
 angular vs react, warum angular
 Warum Firestore
 
-mwm
