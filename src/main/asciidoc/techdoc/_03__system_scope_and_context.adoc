@@ -22,7 +22,7 @@ Prüft die Authentizität eines Anwenders und verwaltet die Berechitung und Logi
 image::../images/3_context_diagramm_technical.png[Diagramm - Technischer Kontext]
 
 #### Google Firestore
-Google Firestore biete CRUD-Operationen für die Verwaltung von Dokumenten und Collections von Dokumenten.
+Google Firestore biete CRUD-Operationen für die Verwaltung von Dokumenten und Collections von Dokumenten. Es handelt sich hierbei um eine NoSQL Datenbank.
 
 #### Google Authentication
 Google Authentication führt die Authentifikation eines Anwenders durch und prüft den Zugang zu den Daten der Andwender.

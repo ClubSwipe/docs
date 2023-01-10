@@ -1,17 +1,13 @@
 [[section-runtime-view]]
 == Laufzeitsicht
-wahrscheinlich nicht benötigt
 
 
-=== _<Bezeichnung Laufzeitszenario 1>_
+=== _Anwesenheitskontrolle_
+Das Sequenzdiagramm beschreibt den Ablauf des Use Case Anwesenheitskontrolle. Bei diesem Use Case geht es darum, dass der Benutzer für jeden Teilnehmer des aktuellen Trainings entscheiden muss, ob dieser anwesend ist. Das Diagramm zeigt die Interaktion zwischen dem Benutzer, der View, den Services und der Datenbank (Cloud Firestore). 
 
-*  <hier Laufzeitdiagramm oder Ablaufbeschreibung einfügen>
-*  <hier Besonderheiten bei dem Zusammenspiel der Bausteine in diesem Szenario erläutern>
+Besonderheiten: 
+Der als "loop" gekennzeichnete Bereich wird solange wiederholt, bis alle Teilnehmer eines Trainings kontrolliert sind. 
 
-=== _<Bezeichnung Laufzeitszenario 2>_
 
-...
+image::../images/06_sequenzdiagramm.png[Diagramm - Sequenzdiagramm Anwesenheitskontrolle]
 
-=== _<Bezeichnung Laufzeitszenario n>_
-
-...

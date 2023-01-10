@@ -1,9 +1,10 @@
 [[section-introduction-and-goals]]
-==	Einführung und Ziele
+==	Einführung und Ziele TODO[mwm]
 Es gibt viele verschiedene Vereine, Clubs, Grupppieren, usw (Organe) welche verschiedene Aktivitäten (Training, Probe, Ausflug, Wettkampf, Match, Events, Kurse, usw), an denen die Mitglieder teilnehmen können. Es gibt jedoch Situationen, in denen Mitglieder verhindert sind, an einer Aktivität teilzunehmen, z.B. wegen Krankheit, Urlaub oder anderen Verpflichtungen. In solchen Fällen ist es wichtig, dass der Verein über die Abwesenheit eines Mitglieds informiert ist.
 Für Jugend und Sport (J&S) Beiträge vom Bund und auch Statistiken müssen Anwesenheitslisten pro Aktivität geführt werden, damit belegt werden kann, wann welches Mitglied anwesend war. 
 
 Ziel der App soll eine vereinfachte Anwesenheitskontrolle sein. Ein erster Prototyp soll es einem Admin ermöglichen, Training und Mitglieder zu erfassen und auf effiziente Weise, Anwesenheiten von Mitgliedern an einem Training zu tracken.
+
 
 === Aufgabenstellung
 
@@ -11,7 +12,6 @@ Ziel der App soll eine vereinfachte Anwesenheitskontrolle sein. Ein erster Proto
 * *Titel*
 +
 Lauftext
-mwm
 
 === Stakeholder und Rollen
 * *Aktivitätsverantwortlicher (z.B Coach)*
