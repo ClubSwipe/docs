@@ -1,5 +1,10 @@
 [[section-solution-strategy]]
 == Lösungsstrategie TODO[mwm]
+Die ganze Erfassung und Bearbeitung von Absenzen soll Mobil an verschiedene Orten erfolgen. Eine Aktivität kann im Freien, in einem Kursraum, Turnhalle, usw durchgeführt werden und dort soll auch die Anwesenheitskontrolle durchgeführt werden. Aus diesem Grund ist eine Anwendung für Mobile unverzichtbar, da bei solchen Aktiväten meisten nur ein Mobile Gerät vorhanden ist. 
+
+Beim Cloud Anbieter wurde auf Google Firebase gesetzt. Dies hat den Vorteil, dass ohne grossen Aufwand auf eine Datenbank und Fileshare zugegriffen werden kann. Weiter ist auch ein Hosting verfügbar und eine Authentifizeirung Service wird auch zur Verfügung gestellt, damit muss dies  nicht selber gehandelt werden. 
+
+
 firebase
 pwa
 eigenes modul
