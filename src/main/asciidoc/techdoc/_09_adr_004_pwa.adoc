@@ -1,0 +1,17 @@
+[cols="1,3"]
+|===
+|NR. - Titel | ADR 004 - Verwendung von Progressive Web App (PWA)
+
+|Kontekt
+|Bei der Entwicklung einer neuen Web-Anwendung war es erforderlich, eine Technologie auszuwählen, um die Anforderungen des Projekts zu erfüllen. Es wurden verschiedene Technologie-Optionen untersucht und bewertet, bevor die Entscheidung getroffen wurde, eine Progressive Web App (PWA) zu verwenden.
+
+|Entscheidung
+|Eine Progressive Web App (PWA) wurde als Technologie für die neue Web-Anwendung ausgewählt, da sie die besten Funktionen und Vorteile für das Projekt bietet. PWA ermöglicht es, dass die Anwendung wie eine native App verwendet werden kann, ohne dass sie im App Store heruntergeladen werden muss. Sie bietet auch Offline-Fähigkeiten und Push-Benachrichtigungen und ermöglicht eine schnellere Ladezeit und eine bessere Benutzerfreundlichkeit.
+
+|Status
+|Akzeptiert
+
+|Konsequenzen
+|Die Verwendung von PWA wird die Benutzerfreundlichkeit der Web-Anwendung verbessern und es ermöglichen, die Anforderungen des Projekts schneller und effektiver umzusetzen. Es wird auch die Verfügbarkeit der Anwendung erhöhen und es ermöglichen, die Anwendung offline zu verwenden.
+
+|===

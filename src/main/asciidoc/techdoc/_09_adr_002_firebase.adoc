@@ -1,0 +1,17 @@
+[cols="1,3"]
+|===
+|NR. - Titel | ADR 002 - Wahl von Firebase als Cloud-Anbieter
+
+|Kontekt
+|Bei der Entwicklung einer neuen Web-Anwendung war es erforderlich, einen Cloud-Anbieter auszuwählen, um die Anforderungen des Projekts zu erfüllen. Es wurden verschiedene Cloud-Anbieter untersucht und bewertet, bevor die Entscheidung getroffen wurde, Firebase als Cloud-Anbieter zu verwenden.
+
+|Entscheidung
+|Firebase wurde als Cloud-Anbieter für die neue Web-Anwendung ausgewählt, da es die besten Funktionen und Vorteile für das Projekt bietet. Es ist ein Backend-as-a-Service-Anbieter, der eine Vielzahl von Funktionen wie Authentifizierung, Datenbank, Hosting und Cloud-Funktionen bereitstellt. Es hat eine einfache und intuitive Schnittstelle und ermöglicht es uns, schnell und effektiv zu entwickeln.
+
+|Status
+|Akzeptiert
+
+|Konsequenzen
+|Die Verwendung von Firebase als Cloud-Anbieter wird die Entwicklung der Web-Anwendung beschleunigen und es uns ermöglichen, die Anforderungen des Projekts schneller und effektiver umzusetzen. Es wird auch die Wartbarkeit und Erweiterbarkeit der Anwendung verbessern.
+
+|===
