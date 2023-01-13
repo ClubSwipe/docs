@@ -1,8 +1,18 @@
 [[section-solution-strategy]]
 == Lösungsstrategie TODO[mwm]
-Die ganze Erfassung und Bearbeitung von Absenzen soll Mobil an verschiedene Orten erfolgen. Eine Aktivität kann im Freien, in einem Kursraum, Turnhalle, usw durchgeführt werden und dort soll auch die Anwesenheitskontrolle durchgeführt werden. Aus diesem Grund ist eine Anwendung für Mobile unverzichtbar, da bei solchen Aktiväten meisten nur ein Mobile Gerät vorhanden ist. 
 
-Beim Cloud Anbieter wurde auf Google Firebase gesetzt. Dies hat den Vorteil, dass ohne grossen Aufwand auf eine Datenbank und Fileshare zugegriffen werden kann. Weiter ist auch ein Hosting verfügbar und eine Authentifizeirung Service wird auch zur Verfügung gestellt, damit muss dies  nicht selber gehandelt werden. 
+=== Anwendungstyp
+ 
+Die ganze Erfassung und Bearbeitung von Absenzen soll Mobil an verschiedene Orten erfolgen. Eine Aktivität kann im Freien, in einem Kursraum, Turnhalle, usw durchgeführt werden und dort soll auch die Anwesenheitskontrolle durchgeführt werden. Aus diesem Grund ist eine Anwendung für Mobile unverzichtbar, da bei solchen Aktiväten meisten nur ein Mobile Gerät vorhanden ist. 
+Da es sicher User gibt welche die Anwednung nur ab und zu benutzen, macht es sicher auch keinen Sinn eine App zu entwickeln welche für jeden Gebrauch der Anwendung installiert werden muss. 
+Aus diesen Gründen wurde entschieden, dass eine PWA zu erstellen. User welche die Anwendung regelmässig benutzen können, sie immer via Browser bei sich als App installieren.
+
+Beim Webframework wurde entschieden Angular zu verwenden. Angular hat eine sehr grosse Verbreitung. Weiter gilt Angular als Frameware welches für Entwickler welche aus der Backend Entwicklung kommen als einfacher zu verstehen.
+
+=== Cloud Anbieter
+Beim Cloud Anbieter wurde auf Google Firebase gesetzt. Google Firebase hat den Vorteil, dass ohne grossen Aufwand auf eine Datenbank und Fileshare zugegriffen werden kann. Weiter ist auch ein Hosting verfügbar und eine Authentifizeirung Service wird auch zur Verfügung gestellt, damit muss dies nicht selber gehandelt werden. 
+
+Weiter soll die Anbindung an Google Firebase in ein separates Modul ausgelagert werden, damit die Austauschbarkeit gewährleistet ist. So kann in der Zukunft einfacher einen anderen oder einen weiteren Cloud Anbieter verwendet werden können.
 
 
 firebase

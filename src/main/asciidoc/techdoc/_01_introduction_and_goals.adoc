@@ -9,20 +9,27 @@ Ziel der App soll eine vereinfachte Anwesenheitskontrolle sein. Ein erster Proto
 === Aufgabenstellung
 
 === Qualitätsziele
-* *Titel*
+* *Effizient*
 +
 Lauftext
+* *Fehler Minimieruung*
+
+* *Benutzerfreundlichkeit*
 
 === Stakeholder und Rollen
+* *Organverantwortlicher (z.B Chef-Coach)*
++
+Der Organverantwortliche möchte Aktivitäten und Mitglieder erfassen und bearbeiten. Weiter möchte er auch Absenzserien erfassen.
+
 * *Aktivitätsverantwortlicher (z.B Coach)*
 +
-Der Aktivitätsverantwortlicher möchte einsehen können welche Mitglieder an der Aktivität teilnehmen und welche sich abgemeldet haben.
+Der Aktivitätsverantwortliche möchte einsehen können welche Mitglieder an der Aktivität teilnehmen und welche sich abgemeldet haben. Zusätzlich soll er mit einer Anwesenheitsliste erfassen, welche Mitglieder tatsächlich an der Aktivität teilgenommen haben. 
 
 * *Mitglied*
 +
 Ein Mitglied möchte einfach eine Absenz für eine Aktivität melden können.
 
-* *J+S Coach*
+* *Statistiker (z.B J+S Coach)*
 +
 Die/Der J+S Coach braucht eine Export, damit bei J+S in der Applikation die Daten eingegen werden können. Die Organe können für Aktivitäten mit Jugendlichen (unter 20 Jahre) Fördergeldern beziehen.
 
