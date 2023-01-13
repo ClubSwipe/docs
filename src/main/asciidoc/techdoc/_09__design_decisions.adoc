@@ -1,7 +1,7 @@
 [[section-design-decisions]]
 == Architektur-Entscheidunge
 
-Die Architekturentscheidungen werden nach dem ADR-Prinzip von Michael Nygard beschrieben (https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions | ADR- Document Architecture Decsision)
+Die Architekturentscheidungen werden nach dem ADR-Prinzip von Michael Nygard beschrieben [ADR- Document Architecture Decsision](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions)
 
 include::_09_adr_001_angular.adoc[]
 include::_09_adr_002_firebase.adoc[]
