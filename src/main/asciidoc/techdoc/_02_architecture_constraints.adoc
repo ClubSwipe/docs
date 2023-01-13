@@ -1,5 +1,7 @@
 [[section-architecture-constraints]]
-== Technische Randbedingungen
+== Randbedingunen
+
+=== Technische Randbedingungen
 .Table Liste der technischen Randbedingungen
 |===
 | |Randbedingungen |Hintergrund und Motivation
@@ -30,7 +32,7 @@
 
 |===
 
-== Organisatorische Randbedingungen
+=== Organisatorische Randbedingungen
 .Table Liste der organisatorischen Randbedingungen
 |===
 | |Randbedingungen |Hintergrund und Motivation
@@ -57,7 +59,7 @@
 
 |===
 
-== Konventionen
+=== Konventionen
 .Table Liste der Konventionen
 |===
 | |Randbedingungen |Hintergrund und Motivation
