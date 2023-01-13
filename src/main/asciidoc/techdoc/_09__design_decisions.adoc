@@ -1,6 +1,9 @@
 [[section-design-decisions]]
-== Entwurfsentscheidungen TODO[sbi]
-bla
+== Architektur-Entscheidunge
 
-=== Architektur-Entscheidunge
-bla
+Die Architekturentscheidungen werden nach dem ADR-Prinzip von Michael Nygard beschrieben (https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions | ADR- Document Architecture Decsision)
+
+TODO [sbi]
+include::_09_adr_001_angular.adoc[]
+
+

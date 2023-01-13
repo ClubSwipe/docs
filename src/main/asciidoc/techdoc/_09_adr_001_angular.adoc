@@ -1,0 +1,17 @@
+[cols="1,3"]
+|===
+|NR. - Titel | ADR 001 - Angular als Web-Framework
+
+|Kontekt
+|Bei der Entwicklung einer neuen Web-Anwendung musste ein geeignetes Framework ausgewählt werden, um die Anforderungen des Projekts zu erfüllen. Es wurden verschiedene Framework-Optionen untersucht und bewertet, bevor die Entscheidung getroffen wurde, Angular als Framework zu verwenden.
+
+|Entscheidung
+|Angular wurde als Framework für die neue Web-Anwendung ausgewählt, da es die besten Funktionen und Vorteile für das Projekt bietet. Es hat eine große Community, die es weiterentwickelt und unterstützt, es ist gut dokumentiert und es hat viele nützliche Funktionen und Werkzeuge, die es uns ermöglichen, schnell und effektiv zu entwickeln.
+
+|Status
+|Akzeptiert
+
+|Konsequenzen
+|Die Verwendung von Angular als Framework wird die Entwicklung der Web-Anwendung beschleunigen und es uns ermöglichen, die Anforderungen des Projekts schneller und effektiver umzusetzen. Es wird auch die Wartbarkeit und Erweiterbarkeit der Anwendung verbessern.
+
+|===
