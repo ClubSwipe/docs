@@ -10,4 +10,11 @@ Die folgende Liste beschreibt einige wichtige EIP-spezifischen Begriffe und Abk√
 |UI
 |User Interface, Bedienoberfl√§che einer Applikation.
 
+|J+S
+|Jugend und Sport
+
+|PWA
+|Progressive Web-App
+
+
 |===
