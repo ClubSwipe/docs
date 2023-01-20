@@ -26,4 +26,4 @@ Das Deployment funktioniert durch die mitgelieferte github-Action und `\.github\
 `ng build` zum Bauen der App. Die Build-Artifakte sind im `dist/` Ordner.
 
 **Unit Tests laufen lassen**::
-`ng test` zum Ausführen von UnitTests [Karma](https://karma-runner.github.io).
+`ng test` zum Ausführen von UnitTests https://karma-runner.github.io[Karma].

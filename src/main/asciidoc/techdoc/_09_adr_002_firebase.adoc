@@ -1,6 +1,6 @@
 [cols="1,3"]
 |===
-|NR. - Titel | ADR 002 - Wahl von Firebase als Cloud-Anbieter
+|ADR 002 |Wahl von Firebase als Cloud-Anbieter
 
 |Kontekt
 |Bei der Entwicklung einer neuen Web-Anwendung war es erforderlich, einen Cloud-Anbieter auszuwählen, um die Anforderungen des Projekts zu erfüllen. Es wurden verschiedene Cloud-Anbieter untersucht und bewertet, bevor die Entscheidung getroffen wurde, Firebase als Cloud-Anbieter zu verwenden.

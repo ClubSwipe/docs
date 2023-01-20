@@ -51,7 +51,7 @@
 
 |OC4
 |Version Control
-|Als Version Control Tool wird GIT eingesetzt. Das Repository ist öffentlich zugänglich auf github: https://github.com/ClubSwipe/app
+|Als Version Control Tool wird GIT eingesetzt. Das Repository ist öffentlich zugänglich auf github: https://github.com/ClubSwipe/app[ClubSwipe-Repository]
 
 |OC5
 |Lizenz

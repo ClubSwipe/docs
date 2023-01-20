@@ -1,6 +1,6 @@
 [cols="1,3"]
 |===
-|NR. - Titel | ADR 001 - Angular als Web-Framework
+|ADR 001 |Angular als Web-Framework
 
 |Kontekt
 |Bei der Entwicklung einer neuen Web-Anwendung musste ein geeignetes Framework ausgewählt werden, um die Anforderungen des Projekts zu erfüllen. Es wurden verschiedene Framework-Optionen untersucht und bewertet, bevor die Entscheidung getroffen wurde, Angular als Framework zu verwenden.

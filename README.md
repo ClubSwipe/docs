@@ -1,5 +1,5 @@
 # Dokumentationsgenerator
-Mit diesem Repository werdend die technische Dokumentation für das <Name hier>.
+Mit diesem Repository wird die technische Dokumentation für ClubSwipe erstellt.
 
 Zur Generierung des Dokumentes folgenden Befehl lokal ausführen:
 
