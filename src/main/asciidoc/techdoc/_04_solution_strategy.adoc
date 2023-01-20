@@ -1,5 +1,5 @@
 [[section-solution-strategy]]
-== Lösungsstrategie TODO[mwm]
+== Lösungsstrategie
 
 === Anwendungstyp
  
@@ -10,7 +10,7 @@ Aus diesen Gründen wurde entschieden, dass eine PWA zu erstellen. User welche d
 Beim Webframework wurde entschieden Angular zu verwenden. Angular hat eine sehr grosse Verbreitung. Weiter gilt Angular als Frameware welches für Entwickler welche nicht aus der Web Entwicklung kommen als einfacher zu verstehen.
 
 === Cloud Anbieter
-Beim Cloud Anbieter wurde auf Google Firebase gesetzt. Google Firebase hat den Vorteil, dass ohne grossen Aufwand auf eine Datenbank und Fileshare zugegriffen werden kann. Weiter ist auch ein Hosting verfügbar und eine Authentifizeirung Service wird auch zur Verfügung gestellt, damit muss dies nicht selber gehandelt werden. 
+Beim Cloud Anbieter wurde auf Google Firebase gesetzt. Google Firebase hat den Vorteil, dass ohne grossen Aufwand auf eine Datenbank und Fileshare zugegriffen werden kann. Weiter ist auch ein Hosting verfügbar und eine Authentifizierung Service wird auch zur Verfügung gestellt, damit muss dies nicht selber gehandelt werden. 
 
 Weiter soll die Anbindung an Google Firebase in ein separates Modul ausgelagert werden, damit die Austauschbarkeit gewährleistet ist. So kann in der Zukunft einfacher einen anderen oder einen weiteren Cloud Anbieter verwendet werden können.
 
