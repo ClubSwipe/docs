@@ -1,17 +1,11 @@
 [[section-deployment-view]]
-== Verteilungssicht TODO[sbi]
+== Verteilungssicht
 
 === Software Voraussetzungen
 
-- Installation Node.JS mindestens v14.18.0 
+- Installation Node.JS mindestens v16.13.0 
 - Firebase CLI installieren `npm install -g firebase-tools`
 - Deployment via Firebase Hosting `firebase deploy --only hosting`
-
-.Erreichbare Webseite
-****
-- ``PROJECT_ID``.web.app
-- ``PROJECT_ID``.firebaseapp.com
-****
 
 === Deployment
 
