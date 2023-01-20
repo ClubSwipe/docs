@@ -20,15 +20,10 @@ Das Deployment funktioniert durch die mitgelieferte github-Action und `\.github\
 === Lokales Testing
 
 **Applikation starten**::
-`ng serve` for a dev server. Gehe zu `http://localhost:4200/`. Die Applikation wird automatisch neu geladen bei einer Änderungen an einem Source-File.
+`ng serve` startet einen Dev-Server. Gehe zu `http://localhost:4200/`. Die Applikation wird automatisch neu geladen bei einer Änderungen an einem Source-File.
 
 **Das Projekt bauen**::
-`ng build` to build the project. Die Build-Artifakte sind im `dist/` Ordner.
+`ng build` zum Bauen der App. Die Build-Artifakte sind im `dist/` Ordner.
 
 **Unit Tests laufen lassen**::
-`ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
+`ng test` zum Ausführen von UnitTests [Karma](https://karma-runner.github.io).

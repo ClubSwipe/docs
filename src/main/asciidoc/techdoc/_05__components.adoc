@@ -5,5 +5,4 @@ Folgende Abschnitte beschreiben einzelne Komponenten.
 image::../images/05_komponentendiagramm.png[Diagramm - Komponentendiagramm]
 
 
-include::_05_logging.adoc[]
 
