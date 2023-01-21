@@ -15,9 +15,3 @@ Beim Cloud Anbieter wurde auf Google Firebase gesetzt. Google Firebase hat den V
 Weiter soll die Anbindung an Google Firebase in ein separates Modul ausgelagert werden, damit die Austauschbarkeit gewährleistet ist. So kann in der Zukunft einfacher einen anderen oder einen weiteren Cloud Anbieter verwendet werden können.
 
 
-firebase
-pwa
-eigenes modul
-angular vs react, warum angular
-Warum Firestore
-

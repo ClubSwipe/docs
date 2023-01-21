@@ -1,7 +1,7 @@
 [[section-system-scope-and-context]]
 == Kontextabgrenzung
 
-=== Fachlicher Kontext
+=== Fachlicher Kontext TODO sbi storage
 
 image::../images/3_context_diagramm.png[Diagramm - Fachlicher Kontext]
 
@@ -14,15 +14,22 @@ Der Coach bedient die Applikation und prüft während eines Trainings die Anwese
 #### Google Firestore
 Google Firestore sammelt und verwaltet die erfassten Daten der Applikation und hält sie zwischen den verschiedenen Anwendern synchron.
 
+#### Google Cloud Storage
+Google Storage ist ein Objektspeicherdienst welcher die Möglichkeit bietet, Bilder, Videos, Audio- und andere Dateien in der Cloud zu speichern und von überall auf der Welt darauf zuzugreifen.
+
 #### Google Authentication
 Prüft die Authentizität eines Anwenders und verwaltet die Berechitung und Login-Freigabe der einzelnen Anwender.
 
-==== Technischer Kontext
+=== Technischer Kontext
 
 image::../images/3_context_diagramm_technical.png[Diagramm - Technischer Kontext]
 
 #### Google Firestore
 Google Firestore biete CRUD-Operationen für die Verwaltung von Dokumenten und Collections von Dokumenten. Es handelt sich hierbei um eine NoSQL Datenbank.
+
+#### Google Cloud Storage
+Google Cloud Storage bietet die Möglichkeit, Dateien wie Bilder, Videos, Audio und andere Dokumente in der Cloud zu speichern und darauf zuzugreifen. Der Zugriff auf die gespeicherten Dateien erfolgt über eine RESTful API oder eine clientseitige SDK, die für verschiedene Plattformen wie Android, iOS und Web verfügbar ist.
+
 
 #### Google Authentication
 Google Authentication führt die Authentifikation eines Anwenders durch und prüft den Zugang zu den Daten der Andwender.
