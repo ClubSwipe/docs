@@ -2,7 +2,33 @@
 == Komponenten TODO[msr]
 Folgende Abschnitte beschreiben einzelne Komponenten.
 
-image::../images/05_komponentendiagramm.png[Diagramm - Komponentendiagramm]
+=== Level 1
+
+image::../images/05_Komponentendiagram_Lv_1.png[Diagramm - Komponentendiagramm Level 1]
+
+=== Level 2
+
+image::../images/05_Komponentendiagram_Lv_2.png[Diagramm - Komponentendiagramm Level 2]
+
+=== Level 3
+
+==== View Komponente
+
+image::../images/05_Komponentendiagram_Lv_3_View.png[Diagramm - Komponentendiagramm Level 3 View Modul]
+
+==== Service Komponente
+
+image::../images/05_Komponentendiagram_Lv_3_Services.png[Diagramm - Komponentendiagramm Level 3 Service Modul]
+
+
+=== Level 4
+
+image::../images/05_Komponentendiagram_Lv_4_Member.png[Diagramm - Komponentendiagramm Level 4 Member Komponente]
+
+=== Gesamtübersicht
+
+
+image::../images/05_Komponentendiagram_Gesamt.png[Diagramm - Komponentendiagramm Gesamt]
 
 
 
