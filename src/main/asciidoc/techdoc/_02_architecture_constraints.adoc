@@ -3,7 +3,7 @@
 
 === Technische Randbedingungen
 .Table Liste der technischen Randbedingungen
-[cols="1,2,4"]
+[cols="1,4,8"]
 |===
 | |Randbedingungen |Hintergrund und Motivation
 
@@ -35,7 +35,7 @@
 
 === Organisatorische Randbedingungen
 .Table Liste der organisatorischen Randbedingungen
-[cols="1,2,4"]
+[cols="1,4,8"]
 |===
 | |Randbedingungen |Hintergrund und Motivation
 
@@ -63,7 +63,7 @@
 
 === Konventionen
 .Table Liste der Konventionen
-[cols="1,2,4"]
+[cols="1,4,8"]
 |===
 | |Randbedingungen |Hintergrund und Motivation
 
