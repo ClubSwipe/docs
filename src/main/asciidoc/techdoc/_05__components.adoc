@@ -1,27 +1,43 @@
 [[section-components]]
-== Komponenten TODO[msr]
-Folgende Abschnitte beschreiben einzelne Komponenten.
+== Komponenten
+Folgende Abschnitte beschreiben einzelne Komponenten nach dem C4-Modell. D.h. es wird von der High-Level Perspektive ausgegangen und mit den weiteren Levels immer tiefer abgetaucht (top-down). 
 
 === Level 1
-
+Das folgende Diagramm zeig die beiden Hauptkomponenten der ClubSwipe-App. Das ist einerseits Firebase, als Persistenz Provider für das App und andererseits die Clubswipe ab. 
 image::../images/05_Komponentendiagram_Lv_1.png[Diagramm - Komponentendiagramm Level 1]
 
 === Level 2
-
+Die ClubSwipe App besteht aus zwei Schichten. Das sind View und Services. Die View kümmert sich um die Aufbereitung und Darstellung der Daten. Hingegen beinhaltet die Service Schicht die Geschäftslogik der App. 
 image::../images/05_Komponentendiagram_Lv_2.png[Diagramm - Komponentendiagramm Level 2]
 
 === Level 3
 
 ==== View Komponente
+Nachfolgend ein kurzer Beschieb der Views: + 
+**Member Editor:** UI für die Erfassung und Bearbeitung eines Teilnehmers. + 
+**Member List:** Listenansicht aller Teilnehmer mit Suchfunktion und Menüs zum Absrpung auf den Member-Editor und den Absenzen. + 
+**Swipe-Card:** Das ist die UI-Komponenten zum Swipen für die Ermittlung der Anwesenheit der Teilnehmer an einem Event.  + 
+**Absence List:** In dieser Sicht können die Absenzen in einer Listenansicht bearbeitet werden.  + 
+**Event List:** Liste aller Events  + 
+**Authentication:** Login-Maske + 
 
 image::../images/05_Komponentendiagram_Lv_3_View.png[Diagramm - Komponentendiagramm Level 3 View Modul]
 
 ==== Service Komponente
+**File Upload:** Dient dem Upload von Profilbilder auf Firebase + 
+**Member:** Verwaltung und Abfrage von Teilnehmer + 
+**Absence:** Geschätslogik zur Absenzführung und Abfrage  + 
+**Event:** Verwaltung von Events und hizufügen von Teilnehmer + 
+**Authentication:** Adapter Service für Firebase Login + 
 
 image::../images/05_Komponentendiagram_Lv_3_Services.png[Diagramm - Komponentendiagramm Level 3 Service Modul]
 
 
 === Level 4
+**Member Service Firestore Adapter:** Adapter zu Firstore Datenbank. Durch die Abstraktion der Datenbank durch diesen Adapter, sollte es relativ einfach bleiben auf eine andere Datenbank wechseln zu können. + 
+**Member Service:** Bietet CRUD Operationen für Teilnehmer.  + 
+**Absence:** Für die Absenzführung bruacht es Teilnehmer. Aus diesem Grund hat dieser Service eine Abhängigkeit zu Member Service. + 
+
 
 image::../images/05_Komponentendiagram_Lv_4_Member.png[Diagramm - Komponentendiagramm Level 4 Member Komponente]
 
