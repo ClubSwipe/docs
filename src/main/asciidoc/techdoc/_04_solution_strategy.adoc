@@ -3,9 +3,9 @@
 
 === Anwendungstyp
  
-Die ganze Erfassung und Bearbeitung von Absenzen soll mobil an verschiedene Orten erfolgen. Eine Aktivität kann im Freien, in einem Kursraum, Turnhalle, usw durchgeführt werden. Dort soll auch die Anwesenheitskontrolle stattfinden. Aus diesem Grund ist eine Anwendung für Mobile unverzichtbar, da bei solchen Aktiväten meistens nur ein Mobile-Gerät vorhanden ist. 
-Da es viele Benutzer gibt, welche die Anwednung nur gelegentlich nutzen, macht es keinen Sinn eine App zu entwickeln, welche installiert werden muss. 
-Aus diesen Gründen wurde entschieden, eine PWA zu erstellen. Benutzer welche die Anwendung regelmässig benutzen, können disese via Browser bei sich als App installieren.
+Die ganze Erfassung und Bearbeitung von Absenzen soll mobil an verschiedene Orten erfolgen. Eine Aktivität kann im Freien, in einem Kursraum, Turnhalle, usw durchgeführt werden. Dort soll auch die Anwesenheitskontrolle stattfinden. Aus diesem Grund ist eine Anwendung für Mobile unverzichtbar, da bei solchen Aktivitäten meistens nur ein Mobile-Gerät vorhanden ist. 
+Da es viele Benutzer gibt, welche die Anwendnung nur gelegentlich nutzen, macht es keinen Sinn eine App zu entwickeln, welche installiert werden muss. 
+Aus diesen Gründen wurde entschieden, eine PWA zu erstellen. Benutzer welche die Anwendung regelmässig benutzen, können diese via Browser bei sich als App installieren.
 
 Als Webframework wird Angular eingesetzt. Angular hat eine sehr grosse Verbreitung und ist für Entwickler, welche nicht aus der Webentwicklung kommen, einfach erlernbar.
 

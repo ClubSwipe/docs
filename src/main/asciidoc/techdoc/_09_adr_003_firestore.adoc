@@ -2,7 +2,7 @@
 |===
 |ADR 003 |Wahl von Firstore als Near-real-time Datenbank
 
-|Kontekt
+|Kontext
 |Bei der Entwicklung einer neuen Web-Anwendung war es erforderlich, eine Datenbank auszuwählen, um die Anforderungen des Projekts zu erfüllen. Es wurden verschiedene Datenbankoptionen untersucht und bewertet, bevor die Entscheidung getroffen wurde, Firestore als Datenbank zu verwenden.
 
 |Entscheidung

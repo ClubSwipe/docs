@@ -1,7 +1,7 @@
 [[section-system-scope-and-context]]
 == Kontextabgrenzung
 
-=== Fachlicher Kontext TODO sbi storage
+=== Fachlicher Kontext
 
 image::../images/3_context_diagramm.png[Diagramm - Fachlicher Kontext]
 
@@ -32,4 +32,4 @@ Google Cloud Storage bietet die Möglichkeit, Dateien wie Bilder, Videos, Audio 
 
 
 #### Google Authentication
-Google Authentication führt die Authentifikation eines Anwenders durch und prüft den Zugang zu den Daten der Andwender.
+Google Authentication führt die Authentifikation eines Anwenders durch und prüft den Zugang zu den Daten der Anwender.

@@ -28,7 +28,7 @@ image::../images/05_Komponentendiagram_Lv_3_View.png[Diagramm - Komponentendiagr
 ==== Service Komponente
 **File Upload:** Dient dem Upload von Profilbilder auf Google Cloud Storage + 
 **Member:** Verwaltung und Abfrage von Teilnehmer + 
-**Absence:** Geschätslogik zur Absenzführung und Abfrage  + 
+**Absence:** Geschäftslogik zur Absenzen Führung und Abfrage  + 
 **Event:** Verwaltung von Events und Event-Teilnahmen + 
 **Authentication:** Adapter Service für Google Authentication. Bereitstellung der Loginfunktionalität. + 
 
@@ -38,7 +38,7 @@ image::../images/05_Komponentendiagram_Lv_3_Services.png[Diagramm - Komponentend
 === Level 4
 **Member Service Firestore Adapter:** Adapter zu Google Firstore Datenbank. Durch die Abstraktion der Datenbank, soll es relativ einfach sein, auf eine andere Datenbank wechseln zu können. + 
 **Member Service:** Bietet CRUD Operationen für Teilnehmer.  + 
-**Absence:** Für die Absenzführung bruacht es Teilnehmer. Aus diesem Grund hat dieser Service eine Abhängigkeit zu Member Service. + 
+**Absence:** Für die Absenzen Führung braucht es Teilnehmer. Aus diesem Grund hat dieser Service eine Abhängigkeit zu Member Service. + 
 
 
 image::../images/05_Komponentendiagram_Lv_4_Member.png[Diagramm - Komponentendiagramm Level 4 Member Komponente]

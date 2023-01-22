@@ -2,7 +2,7 @@
 |===
 |ADR 004 |Verwendung von Progressive Web App (PWA)
 
-|Kontekt
+|Kontext
 |Bei der Entwicklung einer neuen Web-Anwendung war es erforderlich, eine Technologie auszuwählen, um die Anforderungen des Projekts zu erfüllen. Es wurden verschiedene Technologie-Optionen untersucht und bewertet, bevor die Entscheidung getroffen wurde, eine Progressive Web App (PWA) zu verwenden.
 
 |Entscheidung

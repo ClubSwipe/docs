@@ -1,5 +1,5 @@
 [[section-architecture-constraints]]
-== Randbedingunen
+== Randbedingungen
 
 === Technische Randbedingungen
 .Table Liste der technischen Randbedingungen
@@ -25,7 +25,7 @@
 
 |TC5
 |Speicherfreundlich
-|Da die Appliktion auf einer kostenpflichtigen Cloud Plaftform gehostet wird, muss auf eine sparsame Art mit Resourcen umgegangen werden. Aus diesem Grund soll entsprechendes Caching angewandt werden. 
+|Da die Applikation auf einer kostenpflichtigen Cloud Platform gehostet wird, muss auf eine sparsame Art mit Ressourcen umgegangen werden. Aus diesem Grund soll entsprechendes Caching angewandt werden. 
 
 |TC6
 |Mobile first
@@ -45,7 +45,7 @@
 
 |OC2
 |Zeitplan 
-|Erstes Prototyping mit Angular und Firebase startete am 23.12.2022. Eine erste Beta-Version zur Absenzenführung soll Ende Janur verfügbar sein. Eine weitere vollumfänglichere Version Ende März. 
+|Erstes Prototyping mit Angular und Firebase startete am 23.12.2022. Eine erste Beta-Version zur Absenzen Führung soll Ende Januar verfügbar sein. Eine weitere vollumfänglichere Version Ende März. 
 
 |OC3
 |IDE
@@ -57,7 +57,7 @@
 
 |OC5
 |Lizenz
-|Die erste Version der Projektes soll Opensource sein. Weitere Entwicklungen werden evtl. in Zunkunft zu closed source. 
+|Die erste Version der Projektes soll Opensource sein. Weitere Entwicklungen werden evtl. in Zukunft zu closed source. 
 
 |===
 
