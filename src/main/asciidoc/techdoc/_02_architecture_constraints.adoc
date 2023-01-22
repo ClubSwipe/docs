@@ -13,7 +13,7 @@
 
 |TC2
 |Persistierung 
-|Für Speicherung der Daten wird auf eine NoSQL Datenbank namens "Firestore" von Firebase eingesetzt. 
+|Für die Speicherung der Daten wird auf eine NoSQL Datenbank namens "Firestore" von Firebase eingesetzt. 
 
 |TC3
 |OS unabhängige Entwicklung
@@ -57,7 +57,7 @@
 
 |OC5
 |Lizenz
-|Die erste Version der Projektes soll Opensource sein. Weitere Entwciklungen werden evtl. in Zunkunft zu closed source. 
+|Die erste Version der Projektes soll Opensource sein. Weitere Entwicklungen werden evtl. in Zunkunft zu closed source. 
 
 |===
 
@@ -74,6 +74,10 @@
 |C2
 |Sprache
 |Die Dokumentation wird ausschliesslich in Deutsch gepflegt. 
+
+|C3
+|Code
+|Der Code inklusiv Kommentare wird in Englisch geschrieben. 
 
 |===
 

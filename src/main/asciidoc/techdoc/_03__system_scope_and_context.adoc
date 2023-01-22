@@ -18,7 +18,7 @@ Google Firestore sammelt und verwaltet die erfassten Daten der Applikation und h
 Google Storage ist ein Objektspeicherdienst welcher die Möglichkeit bietet, Bilder, Videos, Audio- und andere Dateien in der Cloud zu speichern und von überall auf der Welt darauf zuzugreifen.
 
 #### Google Authentication
-Prüft die Authentizität eines Anwenders und verwaltet die Berechitung und Login-Freigabe der einzelnen Anwender.
+Prüft die Authentizität eines Anwenders und verwaltet die Berechtigung und Login-Freigabe der einzelnen Anwender.
 
 === Technischer Kontext
 

@@ -1,13 +1,13 @@
 [[section-introduction-and-goals]]
 ==	Einführung und Ziele
-Es gibt viele verschiedene Vereine, Clubs, Grupppieren, usw (Organe) welche verschiedene Aktivitäten (Training, Probe, Ausflug, Wettkampf, Match, Events, Kurse, usw), an denen die Mitglieder teilnehmen können. Es gibt jedoch Situationen, in denen Mitglieder verhindert sind, an einer Aktivität teilzunehmen, z.B. wegen Krankheit, Urlaub oder anderen Verpflichtungen. In solchen Fällen ist es wichtig, dass der Verein über die Abwesenheit eines Mitglieds informiert ist.
-Für Jugend und Sport (J+S) Beiträge vom Bund und auch Statistiken müssen Anwesenheitslisten pro Aktivität geführt werden, damit belegt werden kann, wann welches Mitglied anwesend war. 
+Es gibt viele verschiedene Organe (z.B. Vereine, Clubs, Gruppierungen), welche Aktivitäten  anbieten, an denen Mitglieder teilnehmen können. Es gibt jedoch Situationen, in denen Mitglieder verhindert sind, an einer Aktivität teilzunehmen, z.B. wegen Krankheit, Urlaub oder anderen Verpflichtungen. In solchen Fällen ist es wichtig, dass der Verein über die Abwesenheit eines Mitglieds informiert ist.
+Für Jugend und Sport (J+S) Beiträge vom Bund müssen z.B. Anwesenheitslisten pro Aktivität geführt werden. Somit kann belegt werden kann, wann welches Mitglied anwesend war. 
 
 === Aufgabenstellung
-Ziel der App soll eine vereinfachte Anwesenheitskontrolle sein. Ein erster Prototyp soll es einem Admin ermöglichen, Training und Mitglieder zu erfassen und auf effiziente Weise, Anwesenheiten von Mitgliedern an einem Training zu tracken.
+Zur Vereinfachung von Anwesenheitskontrollen soll eine App entwickelt werden. Ein erster Prototyp soll es einem Admin ermöglichen, Training und Mitglieder zu erfassen und auf effiziente Weise, Anwesenheiten von Mitgliedern an einem Training zu tracken.
 
 === Qualitätsziele
-* *Effizient*
+* *Effizienz*
 +
 Der User soll die Abwesenheiten schneller pflegen können, als mit der bisherigen Lösung.
 
@@ -18,7 +18,7 @@ Die Anzahl falscher Einträge soll minimiert werden.
 
 * *Benutzerfreundlichkeit*
 +
-Es sollen möglichst viel User den Gefallen finden die Anwendung zu bedienen. 
+Es sollen möglichst viele Benutzer Gefallen an der Anwendung finden. 
 
 === Stakeholder und Rollen
 * *Organverantwortlicher (z.B Chef-Coach)*
@@ -27,14 +27,14 @@ Der Organverantwortliche möchte Aktivitäten und Mitglieder erfassen und bearbe
 
 * *Aktivitätsverantwortlicher (z.B Coach)*
 +
-Der Aktivitätsverantwortliche möchte einsehen können welche Mitglieder an der Aktivität teilnehmen und welche sich abgemeldet haben. Zusätzlich soll er mit einer Anwesenheitsliste erfassen, welche Mitglieder tatsächlich an der Aktivität teilgenommen haben. 
+Der Aktivitätsverantwortliche möchte einsehen können, welche Mitglieder an der Aktivität teilnehmen und welche sich abgemeldet haben. Zusätzlich soll er mit einer Anwesenheitsliste erfassen, welche Mitglieder tatsächlich an der Aktivität teilgenommen haben. 
 
 * *Mitglied*
 +
-Ein Mitglied möchte einfach eine Absenz für eine Aktivität melden können.
+Ein Mitglied möchte eine Absenz für eine Aktivität anmelden können.
 
 * *Statistiker (z.B J+S Coach)*
 +
-Die/Der J+S Coach braucht eine Export, damit bei J+S in der Applikation die Daten eingegen werden können. Die Organe können für Aktivitäten mit Jugendlichen (unter 20 Jahre) Fördergeldern beziehen.
+Der J+S Coach braucht eine Export, damit die Daten in der J+S Applikation importiert werden können. Die Organe können für Aktivitäten mit Jugendlichen (unter 20 Jahre) Fördergeldern beziehen.
 
 

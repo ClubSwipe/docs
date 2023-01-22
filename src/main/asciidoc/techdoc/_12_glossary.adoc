@@ -16,5 +16,7 @@ Die folgende Liste beschreibt einige wichtige EIP-spezifischen Begriffe und Abk√
 |PWA
 |Progressive Web-App
 
+|CRUD
+|Create Read Update Delete Operationen
 
 |===

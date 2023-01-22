@@ -3,15 +3,14 @@
 
 === Anwendungstyp
  
-Die ganze Erfassung und Bearbeitung von Absenzen soll Mobil an verschiedene Orten erfolgen. Eine Aktivität kann im Freien, in einem Kursraum, Turnhalle, usw durchgeführt werden und dort soll auch die Anwesenheitskontrolle durchgeführt werden. Aus diesem Grund ist eine Anwendung für Mobile unverzichtbar, da bei solchen Aktiväten meisten nur ein Mobile Gerät vorhanden ist. 
-Da es sicher User gibt welche die Anwednung nur ab und zu benutzen, macht es sicher auch keinen Sinn eine App zu entwickeln welche für jeden Gebrauch der Anwendung installiert werden muss. 
-Aus diesen Gründen wurde entschieden, dass eine PWA zu erstellen. User welche die Anwendung regelmässig benutzen können, sie immer via Browser bei sich als App installieren.
+Die ganze Erfassung und Bearbeitung von Absenzen soll mobil an verschiedene Orten erfolgen. Eine Aktivität kann im Freien, in einem Kursraum, Turnhalle, usw durchgeführt werden. Dort soll auch die Anwesenheitskontrolle stattfinden. Aus diesem Grund ist eine Anwendung für Mobile unverzichtbar, da bei solchen Aktiväten meistens nur ein Mobile-Gerät vorhanden ist. 
+Da es viele Benutzer gibt, welche die Anwednung nur gelegentlich nutzen, macht es keinen Sinn eine App zu entwickeln, welche installiert werden muss. 
+Aus diesen Gründen wurde entschieden, eine PWA zu erstellen. Benutzer welche die Anwendung regelmässig benutzen, können disese via Browser bei sich als App installieren.
 
-Beim Webframework wurde entschieden Angular zu verwenden. Angular hat eine sehr grosse Verbreitung. Weiter gilt Angular als Frameware welches für Entwickler welche nicht aus der Web Entwicklung kommen als einfacher zu verstehen.
+Als Webframework wird Angular eingesetzt. Angular hat eine sehr grosse Verbreitung und ist für Entwickler, welche nicht aus der Webentwicklung kommen, einfach erlernbar.
 
 === Cloud Anbieter
-Beim Cloud Anbieter wurde auf Google Firebase gesetzt. Google Firebase hat den Vorteil, dass ohne grossen Aufwand auf eine Datenbank und Fileshare zugegriffen werden kann. Weiter ist auch ein Hosting verfügbar und eine Authentifizierung Service wird auch zur Verfügung gestellt, damit muss dies nicht selber gehandelt werden. 
+Beim Cloud Anbieter wird auf Google Firebase gesetzt. Google Firebase hat den Vorteil, dass ohne grossen Aufwand auf Datenbanken und Fileshares zugegriffen werden kann. Weiter ist auch ein Hosting und eine Authentifizierung Service verfügbar. 
 
-Weiter soll die Anbindung an Google Firebase in ein separates Modul ausgelagert werden, damit die Austauschbarkeit gewährleistet ist. So kann in der Zukunft einfacher einen anderen oder einen weiteren Cloud Anbieter verwendet werden können.
-
+Zudem soll die Anbindung an Google Firebase in ein separates Modul ausgelagert werden. Somit ist die Austauschbarkeit der Datenbanktechnologie gewährleistet. 
 
