@@ -15,28 +15,28 @@ image::../images/05_Komponentendiagram_Lv_2.png[Diagramm - Komponentendiagramm L
 === Level 3
 
 ==== View Komponente
-Nachfolgend ein kurzer Beschieb der Views: + 
+Nachfolgend ein kurzer Beschrieb der einzelnen Views: + 
 **Member Editor:** UI für die Erfassung und Bearbeitung eines Teilnehmers. + 
-**Member List:** Listenansicht aller Teilnehmer mit Suchfunktion und Menüs zum Absrpung auf den Member-Editor und den Absenzen. + 
-**Swipe-Card:** Das ist die UI-Komponenten zum Swipen für die Ermittlung der Anwesenheit der Teilnehmer an einem Event.  + 
+**Member List:** Listenansicht aller Teilnehmer mit Suchfunktion inklusiv Menüs für weitere Funktionen + 
+**Swipe-Card:** UI-Komponenten für die Ermittlung der Anwesenheit eines Teilnehmers an einem Event. Sie stellt Fotos der Mitglieder dar. Mit einem Swipe nach rechts kann die Anwesenheit bestätigt werden. Mit einem Swipe nach links wird diese abgelehnt. + 
 **Absence List:** In dieser Sicht können die Absenzen in einer Listenansicht bearbeitet werden.  + 
-**Event List:** Liste aller Events  + 
+**Event List:** Liste aller Events mit Menüs zur Verwaltung + 
 **Authentication:** Login-Maske + 
 
 image::../images/05_Komponentendiagram_Lv_3_View.png[Diagramm - Komponentendiagramm Level 3 View Modul]
 
 ==== Service Komponente
-**File Upload:** Dient dem Upload von Profilbilder auf Firebase + 
+**File Upload:** Dient dem Upload von Profilbilder auf Google Cloud Storage + 
 **Member:** Verwaltung und Abfrage von Teilnehmer + 
 **Absence:** Geschätslogik zur Absenzführung und Abfrage  + 
-**Event:** Verwaltung von Events und hizufügen von Teilnehmer + 
-**Authentication:** Adapter Service für Firebase Login + 
+**Event:** Verwaltung von Events und Event-Teilnahmen + 
+**Authentication:** Adapter Service für Google Authentication. Bereitstellung der Loginfunktionalität. + 
 
 image::../images/05_Komponentendiagram_Lv_3_Services.png[Diagramm - Komponentendiagramm Level 3 Service Modul]
 
 
 === Level 4
-**Member Service Firestore Adapter:** Adapter zu Firstore Datenbank. Durch die Abstraktion der Datenbank durch diesen Adapter, sollte es relativ einfach bleiben auf eine andere Datenbank wechseln zu können. + 
+**Member Service Firestore Adapter:** Adapter zu Google Firstore Datenbank. Durch die Abstraktion der Datenbank, soll es relativ einfach sein, auf eine andere Datenbank wechseln zu können. + 
 **Member Service:** Bietet CRUD Operationen für Teilnehmer.  + 
 **Absence:** Für die Absenzführung bruacht es Teilnehmer. Aus diesem Grund hat dieser Service eine Abhängigkeit zu Member Service. + 
 
